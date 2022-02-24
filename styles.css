@@ -1,0 +1,104 @@
+body {
+  height: 100%;
+  background-size: 100%;
+  background: repeating-linear-gradient();
+  background-repeat: repeat;
+  background: linear-gradient(
+      to left top,
+      pink,
+      rgb(250, 208, 129),
+      rgb(224, 95, 224)
+    )
+    fixed;
+  background: -moz-linear-gradient(
+      to left top,
+      pink,
+      rgb(250, 208, 129),
+      rgb(224, 95, 224)
+    )
+    fixed;
+
+  background: -ms-linear-gradient
+    (to left top, pink, rgb(250, 208, 129), rgb(224, 95, 224));
+  background: -o-linear-gradient(
+    to left top,
+    pink,
+    rgb(250, 208, 129),
+    rgb(224, 95, 224)
+  );
+  background: linear-gradient(
+      to left top,
+      pink,
+      rgb(250, 208, 129),
+      rgb(224, 95, 224)
+    )
+    fixed;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(179, 6, 142);
+  border: 2px solid rgb(160, 3, 199);
+  padding: 40px 0px;
+  border-radius: 10px;
+  display: block;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px;
+}
+
+p {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+button {
+  display: block;
+  font-weight: bold;
+  color: rgb(250, 215, 221);
+  margin: auto;
+  border: 1px solid pink;
+  border-radius: 24px;
+  padding: 16px 20px;
+  margin-bottom: 30px;
+  font-family: inherit;
+  background-color: rgb(235, 88, 173);
+  transition: all 200ms ease;
+}
+
+button:hover {
+  color: orchid;
+  background-color: #fae6df;
+  cursor: pointer;
+  box-shadow: #fea5ad 0px 5px 5px 0px;
+}
+
+small {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: "PT Mono", monospace;
+}
+
+.container {
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.12);
+  margin: 30px auto;
+  background: rgba(228, 211, 233, 0.466);
+  max-width: 550px;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.items {
+  line-height: 1.5;
+}

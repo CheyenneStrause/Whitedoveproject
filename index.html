@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>white dove</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>White Dove Beading 🕊</h1>
+
+      <h2>↠ Native American beaded jewlery ↞</h2>
+
+      <div>
+        <span class="imgcontainer">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/669/original/118613513_682219319032136_8813341990566735330_n.jpg?1630877357"
+            alt="beads"
+            width="300px"
+          />
+        </span>
+        <span class="imgcontainer">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/595/original/whitedove.jpg?1630801977"
+            alt="WDB"
+            width="300px"
+          />
+        </span>
+        <span class="imgcontainer">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/670/original/240542071_358587719262048_3565832036471529783_n.jpg?1630877376"
+            alt="ear"
+            width="300px"
+          />
+        </span>
+      </div>
+      <hr />
+      <p class="items">
+        All items are
+        <strong> handmade </strong> and <strong> delicate</strong>!
+        <em>Please</em> handle with care. Thank you for your support!💕
+      </p>
+      <br />
+      <p>
+        <a
+          href="https://www.instagram.com/whitedovebeading/?hl=en"
+          target="_blank"
+        >
+          Instagram</a
+        >
+      </p>
+    </div>
+    <button>Sign up</button>
+    <script>
+      function news() {
+        let name = prompt("What is your name?");
+        let social = prompt("Do you have an Instagram account? Yes / No");
+        social = social.toLowerCase();
+        social = social.trim();
+
+        if (social === "yes") {
+          alert("Thanks " + name + "!" + " " + "Keep calm and bead on 🕊");
+        } else {
+          if (social === "no") {
+            alert("follow @whitedovebeading when you make one!");
+          }
+        }
+      }
+
+      let contactButton = document.querySelector("button");
+
+      contactButton.addEventListener("click", news);
+    </script>
+  </body>
+</html>
